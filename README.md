@@ -34,7 +34,7 @@ because the https, and it also needed for zip to exe or sh
 ---
 
 ## Structure
-
+```text
 -| WechatPublic(Main class)
 -| Assist function
 ---| createdir() 
@@ -47,6 +47,7 @@ because the https, and it also needed for zip to exe or sh
 ---| format_time()
 ---| get_time()
 ---| get_filename()
+```
 
 ## what's the next?
 > * zip the .py to exe or sh with PyInstaller
