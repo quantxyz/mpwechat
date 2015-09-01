@@ -359,7 +359,7 @@ def get_filename(day):
 
 
 if __name__ == '__main__':
-    day = 7  # 获取最近五天
+    day = 7  # 7 means get lastest five days, but only the lastest three days image messages be stored on Tencent server
     t = get_time();
     mpwx = WechatPublic("your_username", "your_password")
     mpwx.get_cgi_data(day=day)
